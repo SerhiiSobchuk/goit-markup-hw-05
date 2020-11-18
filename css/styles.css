@@ -833,6 +833,7 @@ body {
 }
 
 .offers-text {
+    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
@@ -851,8 +852,10 @@ body {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.offers-fokus:hover .offers-text {
+.offers-fokus:hover .offers-text {    
     transform: translateY(0);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
