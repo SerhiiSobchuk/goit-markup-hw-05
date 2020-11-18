@@ -934,6 +934,10 @@ body {
     opacity: 1;
 }
 
+.backdrop.is-hidden {
+    visibility: hidden;
+}
+
 
 .modal {
     position: absolute;
@@ -965,4 +969,5 @@ body {
     background-color: var(--white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    cursor: pointer;
 }
